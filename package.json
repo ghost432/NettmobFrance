@@ -1,0 +1,39 @@
+{
+  "name": "nettmobfrance-app",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-config": "^0.17.0",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-community/cli": "^19.1.1",
+    "@react-native-community/cli-server-api": "^18.0.0",
+    "expo": "~53.0.0",
+    "expo-notifications": "~0.31.4",
+    "expo-splash-screen": "~0.30.10",
+    "expo-status-bar": "~2.2.3",
+    "expo-updates": "~0.28.17",
+    "metro": "^0.79.0",
+    "metro-cache": "^0.79.0",
+    "metro-core": "^0.79.0",
+    "react": "19.0.0",
+    "react-native": "^0.79.5",
+    "react-native-webview": "13.13.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/types": "^7.23.0",
+    "@react-native/js-polyfills": "^0.80.2",
+    "@react-native/metro-babel-transformer": "^0.80.2",
+    "@react-native/metro-config": "^0.80.2",
+    "metro-config": "^0.83.1",
+    "metro-runtime": "^0.83.1"
+  },
+  "private": true
+}
